@@ -94,11 +94,11 @@ DATABASES = {
     }
     # 'default': {
     #     'ENGINE': 'django.db.backends.mysql',
-    #     'NAME': 'django',
-    #     'USER': os.environ.get('DB_USER'),
-    #     'PASSWORD': os.environ.get('DB_PASS'),
-    #     'HOST': '127.0.0.1',
-    #     'PORT': '3307'
+    #     'NAME': 'college-erp',
+    #     'USER': 'root',
+    #     'PASSWORD': '12345678',
+    #     'HOST': 'localhost',
+    #     'PORT': '3306'
     # }
 }
 
@@ -130,6 +130,7 @@ else:
 LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
+# TIME_ZONE = 'Asia/Kolkata'
 
 USE_I18N = True
 
